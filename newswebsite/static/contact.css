@@ -1,0 +1,190 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Modern sans-serif font for readability */
+    background-color: #1c1c1c; /* Charcoal Black */
+    color: #dcdcdc; /* Frosted Silver */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Title Bar Styles */
+.title-bar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Spread out the title and navbar */
+    background-color: #5a5c66; /* Metallic Gray */
+    color: #dcdcdc; /* Frosted Silver */
+    padding: 15px 25px;
+    border-bottom: 2px solid #343a40; /* Subtle urban accent */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Center Title Text */
+.title-bar h1 {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    color: #dcdcdc;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align navbar to the left */
+    width: 100%;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+    width: 100%;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #dcdcdc;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 8px 12px;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+}
+
+.navbar ul li a:hover {
+    background-color: #343a40; /* Urban Asphalt Gray */
+    color: #1c1c1c; /* Charcoal Black */
+}
+
+/* Contact Form Styles */
+.contact-section {
+    width: 80%;
+    max-width: 800px;
+    margin-top: 40px;
+    background-color: #343a40;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-section h1 {
+    font-size: 24px;
+    color: #dcdcdc;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 16px;
+    color: #dcdcdc;
+    margin-bottom: 20px;
+}
+
+/* Form Group Styles */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+    width: 100%;
+}
+
+.form-group label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #dcdcdc;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #343a40;
+    border-radius: 5px;
+    background-color: #1c1c1c;
+    color: #dcdcdc;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #5a5c66;
+    outline: none;
+}
+
+/* Submit Button Styles */
+.submit-btn {
+    background-color: #5a5c66;
+    color: #dcdcdc;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #343a40;
+    color: #1c1c1c;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+    .title-bar {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .navbar {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .contact-section {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-section {
+        padding: 15px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 14px;
+    }
+
+    .submit-btn {
+        font-size: 14px;
+    }
+}
