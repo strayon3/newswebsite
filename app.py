@@ -175,7 +175,7 @@ def contact():
 
     return render_template("/template/contact.html")
 
-@app.route("/google603fb947d8acfc74.html")  # Replace with your actual HTML file name
+@app.route("/google")  # Replace with your actual HTML file name
 def google_verification():
     return app.send_static_file("template/google603fb947d8acfc74.html")
 
