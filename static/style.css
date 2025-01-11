@@ -185,21 +185,16 @@ body {
 }
 
 /* Bottom CPM Ad */
-/* Bottom CPM Ad */
+/* Bottom CPM Ad Container */
 .bottom-ad-container {
     display: flex;
     justify-content: center; /* Center the ad horizontally */
-    padding: 10px; /* Add padding for spacing around the ad */
-    margin-top: 20px; /* Adjust position slightly upward */
-    background-color: #2b2b2b; /* Background to highlight the ad */
-    border: 2px solid #dcdcdc; /* Add a visible border */
-    border-radius: 8px; /* Rounded corners for a sleek look */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
-    width: auto; /* Keep the original width of the ad */
-    max-width: none; /* Ensure the ad doesn’t shrink */
-    margin-left: auto; /* Center the container horizontally */
-    margin-right: auto;
-    text-align: center;
+    padding: 10px; /* Add some spacing around the ad */
+    margin-top: 20px; /* Position it near the bottom of the articles */
+    border: 2px solid #dcdcdc; /* Border around the ad */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
 }
+
 
 
