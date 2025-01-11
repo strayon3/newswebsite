@@ -184,17 +184,21 @@ body {
     z-index: 1000;
 }
 
-/* Bottom CPM Ad */
 /* Bottom CPM Ad Container */
 .bottom-ad-container {
     display: flex;
     justify-content: center; /* Center the ad horizontally */
-    padding: 10px; /* Add some spacing around the ad */
-    margin-top: 20px; /* Position it near the bottom of the articles */
+    padding: 10px; /* Some padding for spacing around the ad */
+    margin-top: 20px; /* Adjust position near the bottom of the article container */
     border: 2px solid #dcdcdc; /* Border around the ad */
     border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    width: 400px; /* Width matching the 4:1 ratio */
+    height: 100px; /* Height based on 4:1 aspect ratio */
+    text-align: center;
 }
+
+
 
 
 
