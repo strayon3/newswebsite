@@ -193,8 +193,8 @@ body {
     border: 2px solid #dcdcdc; /* Border around the ad */
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
-    width: 500px; /* Width matching the 4:1 ratio */
-    height: 250px; /* Height based on 4:1 aspect ratio */
+    width: 300px; /* Width matching the 4:1 ratio */
+    height: 550px; /* Height based on 4:1 aspect ratio */
     text-align: center;
 }
 
