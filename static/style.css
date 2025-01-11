@@ -195,7 +195,8 @@ body {
     border: 2px solid #dcdcdc; /* Add a visible border */
     border-radius: 8px; /* Rounded corners for a sleek look */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
-    max-width: 100%; /* Constrain width to keep it proportional */
+    width: auto; /* Keep the original width of the ad */
+    max-width: none; /* Ensure the ad doesn’t shrink */
     margin-left: auto; /* Center the container horizontally */
     margin-right: auto;
     text-align: center;
