@@ -156,14 +156,14 @@ body {
 
 /* Left CPM Ads */
 .left-ad-top {
-    position: fixed;
+    position: absolute;
     top: 100px; /* Adjust below the navbar */
     left: 10px; /* Fixed to the left edge */
     z-index: 1000;
 }
 
 .left-ad-bottom {
-    position: fixed;
+    position: absolute;
     top: 450px; /* Offset from the top ad */
     left: 10px; /* Fixed to the left edge */
     z-index: 1000;
@@ -171,14 +171,14 @@ body {
 
 /* Right CPM Ads */
 .right-ad-top {
-    position: fixed;
+    position: absolute;
     top: 100px; /* Adjust below the navbar */
     right: 10px; /* Fixed to the right edge */
     z-index: 1000;
 }
 
 .right-ad-bottom {
-    position: fixed;
+    position: absolute;
     top: 450px; /* Offset from the top ad */
     right: 10px; /* Fixed to the right edge */
     z-index: 1000;
@@ -195,7 +195,7 @@ body {
     border: 2px solid #dcdcdc; /* Add a visible border */
     border-radius: 8px; /* Rounded corners for a sleek look */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
-    max-width: 80%; /* Constrain width to keep it proportional */
+    max-width: 100%; /* Constrain width to keep it proportional */
     margin-left: auto; /* Center the container horizontally */
     margin-right: auto;
     text-align: center;
