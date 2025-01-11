@@ -154,47 +154,49 @@ body {
     }
 }
 
-/* CPM Ad Styling */
-
 /* Left CPM Ads */
-.cpm-ad-left {
+.left-ad-top {
     position: fixed;
-    top: 10px;
-    left: 10px;
-    width: 120px; /* Adjust width as needed */
-    height: auto;
-    background-color: #2b2b2b; /* Background for visibility */
-    padding: 5px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    top: 100px; /* Adjust below the navbar */
+    left: 10px; /* Fixed to the left edge */
+    z-index: 1000;
+}
+
+.left-ad-bottom {
+    position: fixed;
+    top: 200px; /* Offset from the top ad */
+    left: 10px; /* Fixed to the left edge */
     z-index: 1000;
 }
 
 /* Right CPM Ads */
-.cpm-ad-right {
+.right-ad-top {
     position: fixed;
-    top: 10px;
-    right: 10px;
-    width: 120px; /* Adjust width as needed */
-    height: auto;
-    background-color: #2b2b2b; /* Background for visibility */
-    padding: 5px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    top: 100px; /* Adjust below the navbar */
+    right: 10px; /* Fixed to the right edge */
+    z-index: 1000;
+}
+
+.right-ad-bottom {
+    position: fixed;
+    top: 200px; /* Offset from the top ad */
+    right: 10px; /* Fixed to the right edge */
     z-index: 1000;
 }
 
 /* Bottom CPM Ad */
 .bottom-ad-container {
-    position: absolute; /* Position relative to the article container */
-    bottom: 20px; /* Move up close to the bottom of the article container */
-    left: 50%; /* Center align horizontally */
-    transform: translateX(-50%); /* Center it perfectly */
-    background-color: #2b2b2b; /* Background color for visibility */
+    position: absolute; /* Align relative to the article container */
+    bottom: 20px; /* Place near the bottom of the article container */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%);
+    background-color: #2b2b2b; /* Optional background for visibility */
     padding: 10px;
-    border: 2px solid #dcdcdc; /* Frosted Silver border for visibility */
-    border-radius: 8px; /* Optional rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
-    z-index: 1000; /* Ensure it stays above other elements */
+    border: 2px solid #dcdcdc; /* Optional border */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
     text-align: center;
 }
+
+
