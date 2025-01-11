@@ -186,14 +186,15 @@ body {
 
 /* Bottom CPM Ad */
 .bottom-ad-container {
-    position: relative;
-    margin-top: 30px; /* Adjust to align with container */
-    width: 300px;
-    height: auto; /* Adjust height based on content */
-    background-color: #2b2b2b; /* Background color for better visibility */
+    position: absolute; /* Position relative to the article container */
+    bottom: 20px; /* Move up close to the bottom of the article container */
+    left: 50%; /* Center align horizontally */
+    transform: translateX(-50%); /* Center it perfectly */
+    background-color: #2b2b2b; /* Background color for visibility */
     padding: 10px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for elevation */
-    text-align: center; /* Center text and content */
-    z-index: 1000;
+    border: 2px solid #dcdcdc; /* Frosted Silver border for visibility */
+    border-radius: 8px; /* Optional rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    z-index: 1000; /* Ensure it stays above other elements */
+    text-align: center;
 }
