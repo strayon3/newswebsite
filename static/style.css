@@ -164,7 +164,7 @@ body {
 
 .left-ad-bottom {
     position: fixed;
-    top: 200px; /* Offset from the top ad */
+    top: 450px; /* Offset from the top ad */
     left: 10px; /* Fixed to the left edge */
     z-index: 1000;
 }
@@ -179,23 +179,25 @@ body {
 
 .right-ad-bottom {
     position: fixed;
-    top: 200px; /* Offset from the top ad */
+    top: 450px; /* Offset from the top ad */
     right: 10px; /* Fixed to the right edge */
     z-index: 1000;
 }
 
 /* Bottom CPM Ad */
+/* Bottom CPM Ad */
 .bottom-ad-container {
-    position: absolute; /* Align relative to the article container */
-    bottom: 20px; /* Place near the bottom of the article container */
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%);
-    background-color: #2b2b2b; /* Optional background for visibility */
-    padding: 10px;
-    border: 2px solid #dcdcdc; /* Optional border */
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    z-index: 1000;
+    display: flex;
+    justify-content: center; /* Center the ad horizontally */
+    padding: 10px; /* Add padding for spacing around the ad */
+    margin-top: 20px; /* Adjust position slightly upward */
+    background-color: #2b2b2b; /* Background to highlight the ad */
+    border: 2px solid #dcdcdc; /* Add a visible border */
+    border-radius: 8px; /* Rounded corners for a sleek look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    max-width: 80%; /* Constrain width to keep it proportional */
+    margin-left: auto; /* Center the container horizontally */
+    margin-right: auto;
     text-align: center;
 }
 
